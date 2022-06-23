@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(238, 119, 121)
+}
+
+#sign-in-box {
+    background-color: rgb(202, 195, 195);
+    height: 300px;
+}
+
+.btn {
+    background-color: rgb(10, 172, 172);
+    color: antiquewhite;
+    width: 100px;
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.username {
+    width: 250px;
+    align-self: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.password {
+    width: 250px;
+    align-self: center;
+    padding: 10px;
+}
+ 
+.checkbox {
+    margin-left: 100px;
+} 
+
+h2 {
+    text-align: center;
+}
+
+#sign-in-box {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 500px;
+    margin-top: 150px;
+}
+
+/* #check-box {
+    display: flex;
+    flex-direction: row;
+    text-align: center ;
+} */
+
+label {
+    display: inline-block;
+}
