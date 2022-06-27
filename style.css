@@ -33,8 +33,9 @@ body {
     margin-left: 100px;
 } 
 
-h2 {
+h3 {
     text-align: center;
+    
 }
 
 #sign-in-box {
@@ -45,11 +46,12 @@ h2 {
     margin-top: 150px;
 }
 
-/* #check-box {
-    display: flex;
-    flex-direction: row;
-    text-align: center ;
-} */
+.check-box {
+    position: absolute;
+    left: 27%;
+    bottom: 30%;
+    font-size: smaller;
+}
 
 label {
     display: inline-block;
